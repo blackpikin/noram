@@ -814,8 +814,8 @@ Public Class RTNRSL
     End Sub
 
     Private Sub ToolStripMenuItem5_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles ToolStripMenuItem5.Click
-        ProgressBar1.PerformStep()
-        ProgressBar1.PerformStep()
+        txtRead.WriteText(txtRead.ConvertRangeGridToHtml(DataGridView2, GroupBox6.Text), "C:\reportmanager\emailpage.htm")
+        WebBrowser1.Navigate("C:\reportmanager\emailpage.htm")
         emailPrompt.mode = "Range RSL"
         emailPrompt.ShowDialog()
     End Sub

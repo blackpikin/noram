@@ -92,3 +92,26 @@ E:\VB projects\Network Operations Reporting and Analyzing Manager\Network Operat
 E:\VB projects\Network Operations Reporting and Analyzing Manager\Network Operations Reporting and Analyzing Manager\obj\x86\Debug\GenerateResource.write.1.tlog
 E:\VB projects\Network Operations Reporting and Analyzing Manager\Network Operations Reporting and Analyzing Manager\obj\x86\Debug\NetworkOperationsReportinandAnalyzingManager.vbproj.ResolveComReference.cache
 E:\VB projects\Network Operations Reporting and Analyzing Manager\Network Operations Reporting and Analyzing Manager\obj\x86\Debug\MorningDrill.emailPrompt.resources
+E:\vbprojects\noram\Network Operations Reporting and Analyzing Manager\bin\Debug\MorningDrill.exe.config
+E:\vbprojects\noram\Network Operations Reporting and Analyzing Manager\obj\x86\Debug\NetworkOperationsReportinandAnalyzingManager.vbproj.ResolveComReference.cache
+E:\vbprojects\noram\Network Operations Reporting and Analyzing Manager\obj\x86\Debug\MorningDrill.exe
+E:\vbprojects\noram\Network Operations Reporting and Analyzing Manager\obj\x86\Debug\MorningDrill.xml
+E:\vbprojects\noram\Network Operations Reporting and Analyzing Manager\obj\x86\Debug\MorningDrill.pdb
+E:\vbprojects\noram\Network Operations Reporting and Analyzing Manager\bin\Debug\MorningDrill.exe
+E:\vbprojects\noram\Network Operations Reporting and Analyzing Manager\bin\Debug\MorningDrill.pdb
+E:\vbprojects\noram\Network Operations Reporting and Analyzing Manager\bin\Debug\MorningDrill.xml
+E:\vbprojects\noram\Network Operations Reporting and Analyzing Manager\obj\x86\Debug\MorningDrill.AlarmMonitoring.resources
+E:\vbprojects\noram\Network Operations Reporting and Analyzing Manager\obj\x86\Debug\MorningDrill.configPaths.resources
+E:\vbprojects\noram\Network Operations Reporting and Analyzing Manager\obj\x86\Debug\MorningDrill.emailPrompt.resources
+E:\vbprojects\noram\Network Operations Reporting and Analyzing Manager\obj\x86\Debug\MorningDrill.emailSend.resources
+E:\vbprojects\noram\Network Operations Reporting and Analyzing Manager\obj\x86\Debug\MorningDrill.EtheCapacity.resources
+E:\vbprojects\noram\Network Operations Reporting and Analyzing Manager\obj\x86\Debug\MorningDrill.facility.resources
+E:\vbprojects\noram\Network Operations Reporting and Analyzing Manager\obj\x86\Debug\MorningDrill.Computer Name.resources
+E:\vbprojects\noram\Network Operations Reporting and Analyzing Manager\obj\x86\Debug\MorningDrill.GraphRSLRTN.resources
+E:\vbprojects\noram\Network Operations Reporting and Analyzing Manager\obj\x86\Debug\MorningDrill.Home.resources
+E:\vbprojects\noram\Network Operations Reporting and Analyzing Manager\obj\x86\Debug\MorningDrill.LinkAli.resources
+E:\vbprojects\noram\Network Operations Reporting and Analyzing Manager\obj\x86\Debug\MorningDrill.login.resources
+E:\vbprojects\noram\Network Operations Reporting and Analyzing Manager\obj\x86\Debug\MorningDrill.manageusers.resources
+E:\vbprojects\noram\Network Operations Reporting and Analyzing Manager\obj\x86\Debug\MorningDrill.Resources.resources
+E:\vbprojects\noram\Network Operations Reporting and Analyzing Manager\obj\x86\Debug\MorningDrill.RTNRSL.resources
+E:\vbprojects\noram\Network Operations Reporting and Analyzing Manager\obj\x86\Debug\NetworkOperationsReportinandAnalyzingManager.vbproj.GenerateResource.Cache
