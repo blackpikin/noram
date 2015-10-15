@@ -1,0 +1,20 @@
+E:\VB projects\MorningDrill\MorningDrill\bin\Release\MorningDrill.exe.config
+E:\VB projects\MorningDrill\MorningDrill\bin\Release\MorningDrill.exe
+E:\VB projects\MorningDrill\MorningDrill\bin\Release\MorningDrill.pdb
+E:\VB projects\MorningDrill\MorningDrill\bin\Release\MorningDrill.xml
+E:\VB projects\MorningDrill\MorningDrill\obj\x86\Release\ResolveAssemblyReference.cache
+E:\VB projects\MorningDrill\MorningDrill\obj\x86\Release\MorningDrill.AlarmMonitoring.resources
+E:\VB projects\MorningDrill\MorningDrill\obj\x86\Release\MorningDrill.emailSend.resources
+E:\VB projects\MorningDrill\MorningDrill\obj\x86\Release\MorningDrill.EtheCapacity.resources
+E:\VB projects\MorningDrill\MorningDrill\obj\x86\Release\MorningDrill.facility.resources
+E:\VB projects\MorningDrill\MorningDrill\obj\x86\Release\MorningDrill.Computer Name.resources
+E:\VB projects\MorningDrill\MorningDrill\obj\x86\Release\MorningDrill.GraphRSLRTN.resources
+E:\VB projects\MorningDrill\MorningDrill\obj\x86\Release\MorningDrill.Home.resources
+E:\VB projects\MorningDrill\MorningDrill\obj\x86\Release\MorningDrill.LinkAli.resources
+E:\VB projects\MorningDrill\MorningDrill\obj\x86\Release\MorningDrill.Resources.resources
+E:\VB projects\MorningDrill\MorningDrill\obj\x86\Release\MorningDrill.RTNRSL.resources
+E:\VB projects\MorningDrill\MorningDrill\obj\x86\Release\GenerateResource.read.1.tlog
+E:\VB projects\MorningDrill\MorningDrill\obj\x86\Release\GenerateResource.write.1.tlog
+E:\VB projects\MorningDrill\MorningDrill\obj\x86\Release\MorningDrill.exe
+E:\VB projects\MorningDrill\MorningDrill\obj\x86\Release\MorningDrill.xml
+E:\VB projects\MorningDrill\MorningDrill\obj\x86\Release\MorningDrill.pdb

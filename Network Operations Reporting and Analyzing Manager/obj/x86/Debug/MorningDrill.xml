@@ -1,0 +1,42 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+MorningDrill
+</name>
+</assembly>
+<members>
+<member name="P:MorningDrill.My.Resources.Resources.ResourceManager">
+	<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member><member name="P:MorningDrill.My.Resources.Resources.Culture">
+	<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member><member name="P:MorningDrill.My.Resources.Resources.appname">
+	<summary>
+  Looks up a localized string similar to Morning Drill.
+</summary>
+</member><member name="P:MorningDrill.My.Resources.Resources.cstring">
+	<summary>
+  Looks up a localized string similar to Data Source=.\SQLEXPRESS;Initial Catalog=Drill;Integrated Security=True.
+</summary>
+</member><member name="T:MorningDrill.My.Resources.Resources">
+	<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member><member name="M:MorningDrill.MailHelper.SendMailMessage(System.String,System.String,System.String,System.String,System.String,System.String)">
+	<summary>
+ Sends an mail message
+ </summary>
+	<param name="from">Sender address</param>
+	<param name="recepient">Recepient address</param>
+	<param name="bcc">Bcc recepient</param>
+	<param name="cc">Cc recepient</param>
+	<param name="subject">Subject of mail message</param>
+	<param name="body">Body of mail message</param>
+</member>
+</members>
+</doc>

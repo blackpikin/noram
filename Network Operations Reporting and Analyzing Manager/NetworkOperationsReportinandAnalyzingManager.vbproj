@@ -1,0 +1,292 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{3F9D22BF-FE88-486C-8EDA-6505F5FDAD70}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <StartupObject>MorningDrill.My.MyApplication</StartupObject>
+    <RootNamespace>MorningDrill</RootNamespace>
+    <AssemblyName>MorningDrill</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <MyType>WindowsForms</MyType>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <TargetFrameworkProfile>Client</TargetFrameworkProfile>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DocumentationFile>MorningDrill.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DocumentationFile>MorningDrill.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionExplicit>On</OptionExplicit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionCompare>Binary</OptionCompare>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionStrict>Off</OptionStrict>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionInfer>On</OptionInfer>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>
+    </ApplicationIcon>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationManifest>My Project\app.manifest</ApplicationManifest>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.VisualBasic.PowerPacks.Vs, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Windows.Forms.DataVisualization" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Data" />
+    <Import Include="System.Drawing" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Windows.Forms" />
+    <Import Include="System.Linq" />
+    <Import Include="System.Xml.Linq" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AlarmMonitoring.Designer.vb">
+      <DependentUpon>AlarmMonitoring.vb</DependentUpon>
+    </Compile>
+    <Compile Include="AlarmMonitoring.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ConfigPaths.Designer.vb">
+      <DependentUpon>ConfigPaths.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ConfigPaths.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="emailPrompt.Designer.vb">
+      <DependentUpon>emailPrompt.vb</DependentUpon>
+    </Compile>
+    <Compile Include="emailPrompt.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="EmailSend.Designer.vb">
+      <DependentUpon>EmailSend.vb</DependentUpon>
+    </Compile>
+    <Compile Include="EmailSend.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="EtheCapacity.Designer.vb">
+      <DependentUpon>EtheCapacity.vb</DependentUpon>
+    </Compile>
+    <Compile Include="EtheCapacity.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Facility.Designer.vb">
+      <DependentUpon>Facility.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Facility.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FreeClasses\Auth.vb" />
+    <Compile Include="FreeClasses\Computer Name.Designer.vb">
+      <DependentUpon>Computer Name.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FreeClasses\Computer Name.vb" />
+    <Compile Include="FreeClasses\LoadData.vb" />
+    <Compile Include="FreeClasses\MailHelper.vb" />
+    <Compile Include="FreeClasses\Maths.vb" />
+    <Compile Include="FreeClasses\ServerDateTime.vb" />
+    <Compile Include="FreeClasses\TextReader.vb" />
+    <Compile Include="GraphRSLRTN.Designer.vb">
+      <DependentUpon>GraphRSLRTN.vb</DependentUpon>
+    </Compile>
+    <Compile Include="GraphRSLRTN.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Home.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Home.Designer.vb">
+      <DependentUpon>Home.vb</DependentUpon>
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="LinkAli.Designer.vb">
+      <DependentUpon>LinkAli.vb</DependentUpon>
+    </Compile>
+    <Compile Include="LinkAli.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Login.Designer.vb">
+      <DependentUpon>Login.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Login.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Manageusers.Designer.vb">
+      <DependentUpon>Manageusers.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Manageusers.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="My Project\Application.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="RTNRSL.Designer.vb">
+      <DependentUpon>RTNRSL.vb</DependentUpon>
+    </Compile>
+    <Compile Include="RTNRSL.vb">
+      <SubType>Form</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="AlarmMonitoring.resx">
+      <DependentUpon>AlarmMonitoring.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ConfigPaths.resx">
+      <DependentUpon>ConfigPaths.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="emailPrompt.resx">
+      <DependentUpon>emailPrompt.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EmailSend.resx">
+      <DependentUpon>EmailSend.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EtheCapacity.resx">
+      <DependentUpon>EtheCapacity.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Facility.resx">
+      <DependentUpon>Facility.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FreeClasses\Computer Name.resx">
+      <DependentUpon>Computer Name.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GraphRSLRTN.resx">
+      <DependentUpon>GraphRSLRTN.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Home.resx">
+      <DependentUpon>Home.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LinkAli.resx">
+      <DependentUpon>LinkAli.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Login.resx">
+      <DependentUpon>Login.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Manageusers.resx">
+      <DependentUpon>Manageusers.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RTNRSL.resx">
+      <DependentUpon>RTNRSL.vb</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="app.config" />
+    <None Include="My Project\app.manifest" />
+    <None Include="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="My Project\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <CustomToolNamespace>My</CustomToolNamespace>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="Resources\DIGIFACE.TTF" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\antenna.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cstring.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\antenna.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <COMReference Include="Microsoft.Office.Core">
+      <Guid>{2DF8D04C-5BFA-101B-BDE5-00AA0044DE52}</Guid>
+      <VersionMajor>2</VersionMajor>
+      <VersionMinor>5</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>primary</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+    <COMReference Include="Microsoft.Office.Interop.Outlook">
+      <Guid>{00062FFF-0000-0000-C000-000000000046}</Guid>
+      <VersionMajor>9</VersionMajor>
+      <VersionMinor>4</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>primary</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+    <COMReference Include="stdole">
+      <Guid>{00020430-0000-0000-C000-000000000046}</Guid>
+      <VersionMajor>2</VersionMajor>
+      <VersionMinor>0</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>primary</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
