@@ -83,4 +83,13 @@ Public Class Home
     Private Sub Timer1_Tick(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles Timer1.Tick
         Label9.Text = Date.Now.ToString("MMM dd yyyy   hh:mm:ss")
     End Sub
+
+    Private Sub IPRANUtilizationCheckToolStripMenuItem_Click(ByVal sender As System.Object, ByVal e As System.EventArgs)
+
+    End Sub
+
+    Private Sub IPRANUtilizationToolStripMenuItem_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles IPRANUtilizationToolStripMenuItem.Click
+        Me.Hide()
+        IPRANRTN.Show()
+    End Sub
 End Class

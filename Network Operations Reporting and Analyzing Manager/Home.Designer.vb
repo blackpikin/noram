@@ -42,7 +42,6 @@ Partial Class Home
         Me.TrafficNodeCapacityToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.ReportManagementToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.MPLSDailyCheckToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
-        Me.IPRANUtilizationCheckToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.LinkBudgetToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.LinkAliToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.AdministratorToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
@@ -58,6 +57,8 @@ Partial Class Home
         Me.Label3 = New System.Windows.Forms.Label()
         Me.Label4 = New System.Windows.Forms.Label()
         Me.Label9 = New System.Windows.Forms.Label()
+        Me.EthernetCapacityToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.IPRANUtilizationToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.MenuStrip1.SuspendLayout()
         Me.SuspendLayout()
         '
@@ -89,7 +90,7 @@ Partial Class Home
         '
         Me.RTNToolStripMenuItem2.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.RSLToolStripMenuItem})
         Me.RTNToolStripMenuItem2.Name = "RTNToolStripMenuItem2"
-        Me.RTNToolStripMenuItem2.Size = New System.Drawing.Size(118, 22)
+        Me.RTNToolStripMenuItem2.Size = New System.Drawing.Size(152, 22)
         Me.RTNToolStripMenuItem2.Text = "RTN"
         '
         'RSLToolStripMenuItem
@@ -102,7 +103,7 @@ Partial Class Home
         '
         Me.DWDMToolStripMenuItem1.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.ToolStripMenuItem3, Me.ToolStripMenuItem4})
         Me.DWDMToolStripMenuItem1.Name = "DWDMToolStripMenuItem1"
-        Me.DWDMToolStripMenuItem1.Size = New System.Drawing.Size(118, 22)
+        Me.DWDMToolStripMenuItem1.Size = New System.Drawing.Size(152, 22)
         Me.DWDMToolStripMenuItem1.Text = "DWDM"
         '
         'ToolStripMenuItem3
@@ -120,7 +121,7 @@ Partial Class Home
         'WDMToolStripMenuItem1
         '
         Me.WDMToolStripMenuItem1.Name = "WDMToolStripMenuItem1"
-        Me.WDMToolStripMenuItem1.Size = New System.Drawing.Size(118, 22)
+        Me.WDMToolStripMenuItem1.Size = New System.Drawing.Size(152, 22)
         Me.WDMToolStripMenuItem1.Text = "NGSD4"
         '
         'EricssonEquipmentToolStripMenuItem1
@@ -134,19 +135,19 @@ Partial Class Home
         '
         Me.TrafficNodeToolStripMenuItem.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.RSLToolStripMenuItem1})
         Me.TrafficNodeToolStripMenuItem.Name = "TrafficNodeToolStripMenuItem"
-        Me.TrafficNodeToolStripMenuItem.Size = New System.Drawing.Size(144, 22)
+        Me.TrafficNodeToolStripMenuItem.Size = New System.Drawing.Size(152, 22)
         Me.TrafficNodeToolStripMenuItem.Text = "Traffic Node"
         '
         'RSLToolStripMenuItem1
         '
         Me.RSLToolStripMenuItem1.Name = "RSLToolStripMenuItem1"
-        Me.RSLToolStripMenuItem1.Size = New System.Drawing.Size(96, 22)
+        Me.RSLToolStripMenuItem1.Size = New System.Drawing.Size(152, 22)
         Me.RSLToolStripMenuItem1.Text = "RSL"
         '
         'DXXToolStripMenuItem1
         '
         Me.DXXToolStripMenuItem1.Name = "DXXToolStripMenuItem1"
-        Me.DXXToolStripMenuItem1.Size = New System.Drawing.Size(144, 22)
+        Me.DXXToolStripMenuItem1.Size = New System.Drawing.Size(152, 22)
         Me.DXXToolStripMenuItem1.Text = "DXX"
         '
         'CapacityManagementToolStripMenuItem
@@ -159,6 +160,7 @@ Partial Class Home
         '
         'RTNCapacityToolStripMenuItem
         '
+        Me.RTNCapacityToolStripMenuItem.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.EthernetCapacityToolStripMenuItem, Me.IPRANUtilizationToolStripMenuItem})
         Me.RTNCapacityToolStripMenuItem.Name = "RTNCapacityToolStripMenuItem"
         Me.RTNCapacityToolStripMenuItem.Size = New System.Drawing.Size(248, 22)
         Me.RTNCapacityToolStripMenuItem.Text = "RTN Ethernet Capacity"
@@ -171,7 +173,7 @@ Partial Class Home
         '
         'ReportManagementToolStripMenuItem
         '
-        Me.ReportManagementToolStripMenuItem.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.MPLSDailyCheckToolStripMenuItem, Me.IPRANUtilizationCheckToolStripMenuItem})
+        Me.ReportManagementToolStripMenuItem.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.MPLSDailyCheckToolStripMenuItem})
         Me.ReportManagementToolStripMenuItem.Font = New System.Drawing.Font("Calibri", 10.0!)
         Me.ReportManagementToolStripMenuItem.Name = "ReportManagementToolStripMenuItem"
         Me.ReportManagementToolStripMenuItem.Size = New System.Drawing.Size(139, 22)
@@ -180,14 +182,8 @@ Partial Class Home
         'MPLSDailyCheckToolStripMenuItem
         '
         Me.MPLSDailyCheckToolStripMenuItem.Name = "MPLSDailyCheckToolStripMenuItem"
-        Me.MPLSDailyCheckToolStripMenuItem.Size = New System.Drawing.Size(206, 22)
+        Me.MPLSDailyCheckToolStripMenuItem.Size = New System.Drawing.Size(171, 22)
         Me.MPLSDailyCheckToolStripMenuItem.Text = "MPLS daily check"
-        '
-        'IPRANUtilizationCheckToolStripMenuItem
-        '
-        Me.IPRANUtilizationCheckToolStripMenuItem.Name = "IPRANUtilizationCheckToolStripMenuItem"
-        Me.IPRANUtilizationCheckToolStripMenuItem.Size = New System.Drawing.Size(206, 22)
-        Me.IPRANUtilizationCheckToolStripMenuItem.Text = "IPRAN utilization check"
         '
         'LinkBudgetToolStripMenuItem
         '
@@ -317,6 +313,18 @@ Partial Class Home
         Me.Label9.TabIndex = 38
         Me.Label9.Text = "Date Time"
         '
+        'EthernetCapacityToolStripMenuItem
+        '
+        Me.EthernetCapacityToolStripMenuItem.Name = "EthernetCapacityToolStripMenuItem"
+        Me.EthernetCapacityToolStripMenuItem.Size = New System.Drawing.Size(177, 22)
+        Me.EthernetCapacityToolStripMenuItem.Text = "Ethernet Capacity"
+        '
+        'IPRANUtilizationToolStripMenuItem
+        '
+        Me.IPRANUtilizationToolStripMenuItem.Name = "IPRANUtilizationToolStripMenuItem"
+        Me.IPRANUtilizationToolStripMenuItem.Size = New System.Drawing.Size(177, 22)
+        Me.IPRANUtilizationToolStripMenuItem.Text = "IPRAN utilization"
+        '
         'Home
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(9.0!, 21.0!)
@@ -359,7 +367,6 @@ Partial Class Home
     Friend WithEvents LinkBudgetToolStripMenuItem As System.Windows.Forms.ToolStripMenuItem
     Friend WithEvents LinkAliToolStripMenuItem As System.Windows.Forms.ToolStripMenuItem
     Friend WithEvents MPLSDailyCheckToolStripMenuItem As System.Windows.Forms.ToolStripMenuItem
-    Friend WithEvents IPRANUtilizationCheckToolStripMenuItem As System.Windows.Forms.ToolStripMenuItem
     Friend WithEvents HuaweiEquipmentToolStripMenuItem As System.Windows.Forms.ToolStripMenuItem
     Friend WithEvents RTNToolStripMenuItem2 As System.Windows.Forms.ToolStripMenuItem
     Friend WithEvents RSLToolStripMenuItem As System.Windows.Forms.ToolStripMenuItem
@@ -381,5 +388,7 @@ Partial Class Home
     Friend WithEvents Label9 As System.Windows.Forms.Label
     Friend WithEvents ToolStripMenuItem3 As System.Windows.Forms.ToolStripMenuItem
     Friend WithEvents ToolStripMenuItem4 As System.Windows.Forms.ToolStripMenuItem
+    Friend WithEvents EthernetCapacityToolStripMenuItem As System.Windows.Forms.ToolStripMenuItem
+    Friend WithEvents IPRANUtilizationToolStripMenuItem As System.Windows.Forms.ToolStripMenuItem
 
 End Class
