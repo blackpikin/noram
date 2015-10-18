@@ -56,14 +56,14 @@ Partial Class IPRANRTN
         Me.GroupBox1.Controls.Add(Me.RadioButton1)
         Me.GroupBox1.Location = New System.Drawing.Point(22, 21)
         Me.GroupBox1.Name = "GroupBox1"
-        Me.GroupBox1.Size = New System.Drawing.Size(549, 173)
+        Me.GroupBox1.Size = New System.Drawing.Size(549, 168)
         Me.GroupBox1.TabIndex = 0
         Me.GroupBox1.TabStop = False
         Me.GroupBox1.Text = "Select Ring"
         '
         'Button2
         '
-        Me.Button2.Location = New System.Drawing.Point(460, 131)
+        Me.Button2.Location = New System.Drawing.Point(460, 129)
         Me.Button2.Name = "Button2"
         Me.Button2.Size = New System.Drawing.Size(82, 34)
         Me.Button2.TabIndex = 10
@@ -72,7 +72,7 @@ Partial Class IPRANRTN
         '
         'Button1
         '
-        Me.Button1.Location = New System.Drawing.Point(376, 131)
+        Me.Button1.Location = New System.Drawing.Point(376, 129)
         Me.Button1.Name = "Button1"
         Me.Button1.Size = New System.Drawing.Size(82, 34)
         Me.Button1.TabIndex = 9
@@ -81,7 +81,7 @@ Partial Class IPRANRTN
         '
         'DateTimePicker2
         '
-        Me.DateTimePicker2.Location = New System.Drawing.Point(313, 101)
+        Me.DateTimePicker2.Location = New System.Drawing.Point(313, 99)
         Me.DateTimePicker2.Name = "DateTimePicker2"
         Me.DateTimePicker2.Size = New System.Drawing.Size(230, 25)
         Me.DateTimePicker2.TabIndex = 8
@@ -89,7 +89,7 @@ Partial Class IPRANRTN
         'Label2
         '
         Me.Label2.AutoSize = True
-        Me.Label2.Location = New System.Drawing.Point(283, 103)
+        Me.Label2.Location = New System.Drawing.Point(283, 101)
         Me.Label2.Name = "Label2"
         Me.Label2.Size = New System.Drawing.Size(26, 18)
         Me.Label2.TabIndex = 7
@@ -98,7 +98,7 @@ Partial Class IPRANRTN
         'Label1
         '
         Me.Label1.AutoSize = True
-        Me.Label1.Location = New System.Drawing.Point(6, 103)
+        Me.Label1.Location = New System.Drawing.Point(6, 101)
         Me.Label1.Name = "Label1"
         Me.Label1.Size = New System.Drawing.Size(44, 18)
         Me.Label1.TabIndex = 6
@@ -106,7 +106,7 @@ Partial Class IPRANRTN
         '
         'DateTimePicker1
         '
-        Me.DateTimePicker1.Location = New System.Drawing.Point(54, 100)
+        Me.DateTimePicker1.Location = New System.Drawing.Point(54, 98)
         Me.DateTimePicker1.Name = "DateTimePicker1"
         Me.DateTimePicker1.Size = New System.Drawing.Size(223, 25)
         Me.DateTimePicker1.TabIndex = 5
@@ -169,9 +169,9 @@ Partial Class IPRANRTN
         'GroupBox2
         '
         Me.GroupBox2.Controls.Add(Me.DataGridView1)
-        Me.GroupBox2.Location = New System.Drawing.Point(22, 256)
+        Me.GroupBox2.Location = New System.Drawing.Point(22, 202)
         Me.GroupBox2.Name = "GroupBox2"
-        Me.GroupBox2.Size = New System.Drawing.Size(1328, 462)
+        Me.GroupBox2.Size = New System.Drawing.Size(1328, 513)
         Me.GroupBox2.TabIndex = 1
         Me.GroupBox2.TabStop = False
         Me.GroupBox2.Text = "IPRAN Utilization Check"
@@ -182,7 +182,7 @@ Partial Class IPRANRTN
         Me.DataGridView1.Dock = System.Windows.Forms.DockStyle.Fill
         Me.DataGridView1.Location = New System.Drawing.Point(3, 21)
         Me.DataGridView1.Name = "DataGridView1"
-        Me.DataGridView1.Size = New System.Drawing.Size(1322, 438)
+        Me.DataGridView1.Size = New System.Drawing.Size(1322, 489)
         Me.DataGridView1.TabIndex = 0
         '
         'IPRANRTN

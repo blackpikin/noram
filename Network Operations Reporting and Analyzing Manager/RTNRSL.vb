@@ -21,7 +21,8 @@ Public Class RTNRSL
     Private Sub RTN_Load(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles MyBase.Load
         'set the path of the folder where the files are found
         Try
-            List.Items.AddRange(Directory.GetFiles("C:\RTNLinkDump"))
+            Dim path As String = "D:\Kerrys\Projects\RTNLinkDump"
+            List.Items.AddRange(Directory.GetFiles(path))
         Catch ex As Exception
             MessageBox.Show(ex.Message)
         End Try

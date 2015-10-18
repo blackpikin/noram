@@ -91,5 +91,12 @@ Namespace My.Resources
                 Return CType(obj,Byte())
             End Get
         End Property
+        
+        Friend ReadOnly Property image006() As System.Drawing.Bitmap
+            Get
+                Dim obj As Object = ResourceManager.GetObject("image006", resourceCulture)
+                Return CType(obj,System.Drawing.Bitmap)
+            End Get
+        End Property
     End Module
 End Namespace
